@@ -991,7 +991,7 @@
       (net 21 "Net-(D8-Pad2)") (pintype "passive") (tstamp 480bb1a0-f6ea-4246-addc-2cded85028db))
     (pad "2" thru_hole oval (at 9.3 0 90) (size 8 3.8) (drill oval 6 2) (layers *.Cu *.Mask)
       (net 9 "Net-(C7-Pad1)") (pintype "passive") (tstamp 0dbdf71e-ce10-46a9-bed6-9ece44fbc8db))
-    (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/3D/Mini Blade Fuse Holder.step"
       (offset (xyz 4.5 -2.5 0))
       (scale (xyz 1.2 1.2 1.3))
       (rotate (xyz 0 0 0))
@@ -1080,7 +1080,7 @@
       (net 20 "Net-(D4-Pad2)") (pintype "passive") (tstamp 0769a848-7392-4da5-9227-01e0e32421f4))
     (pad "2" thru_hole oval (at 9.3 0 90) (size 8 3.8) (drill oval 6 2) (layers *.Cu *.Mask)
       (net 10 "Net-(C8-Pad1)") (pintype "passive") (tstamp 2cfd672c-b25c-4aa7-9f91-803092c283ff))
-    (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Mini Blade Fuse Holder.step"
+    (model "${KIPRJMOD}/3D/Mini Blade Fuse Holder.step"
       (offset (xyz 4.572 -2.5 0))
       (scale (xyz 1.2 1.2 1.3))
       (rotate (xyz 0 0 0))
