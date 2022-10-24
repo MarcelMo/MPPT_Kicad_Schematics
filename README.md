@@ -12,3 +12,4 @@ Since I wanted to be able to change the board layout and to test KiCad I decided
 - 3D models are almost complete. SD card is not perfect.
 
 ![image](https://user-images.githubusercontent.com/9505718/197556688-87b132a9-91cb-472a-b1fc-604e41f7f647.png)
+![image](https://user-images.githubusercontent.com/9505718/197556951-bcc581de-8078-4723-b2d1-d8d0403cc7ca.png)
