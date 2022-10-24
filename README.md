@@ -9,4 +9,4 @@ Since I wanted to be able to change the board layout and to test KiCad I decided
 - Switched to 1.27mm pitch smd connector. No need for 2.54mm. Just uses up too much space - on both sides of the board. Also added a few spare IOs and IIC.
 - Fan driver transistor. ToDo: Maybe better switch +, and not GND. Although switching ground allows for more flexibility regarding fan voltage.
 - Had to divide GND into GND and GND2, so I could add the GND copper bar to the schematics and the layout without getting too hacky... Found no better "KiCad way"
-- 3D models are almost complete. SD card is not perfect. ToDo: Heatsink is way too long. 
+- 3D models are almost complete. SD card is not perfect.
