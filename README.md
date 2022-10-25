@@ -11,5 +11,5 @@ Since I wanted to be able to change the board layout and to test KiCad I decided
 - Had to divide GND into GND and GND2, so I could add the GND copper bar to the schematics and the layout without getting too hacky... Found no better "KiCad way"
 - 3D models are almost complete. SD card is not perfect.
 
-![image](https://user-images.githubusercontent.com/9505718/197556688-87b132a9-91cb-472a-b1fc-604e41f7f647.png)
-![image](https://user-images.githubusercontent.com/9505718/197556951-bcc581de-8078-4723-b2d1-d8d0403cc7ca.png)
+![image](https://user-images.githubusercontent.com/9505718/197799230-d5ded150-752a-478b-a134-1eaa9beb0152.png)
+![image](https://user-images.githubusercontent.com/9505718/197799309-ab002c37-8d93-46b7-8a3e-1d9d9be074f3.png)
