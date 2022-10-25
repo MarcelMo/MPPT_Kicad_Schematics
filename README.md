@@ -2,7 +2,7 @@ Based on https://www.instructables.com/DIY-1kW-MPPT-Solar-Charge-Controller/
 Since I wanted to be able to change the board layout and to test KiCad I decided to give this "conversion" a try.
 
 - I removed the keyboard pullups, they are not needed when activating the internal pullup. And I prefer switching to ground anyway, so I can use 5V for the display and the keyboard.
-- I changed the footprint of the screw terminals, since I did not find any other (trustworthy) 50A capable terminal.
+- I changed the footprint of the screw terminals, since I did not find any other (trustworthy) 50A capable terminal. https://www.degson.com/content/details_552_880568.html
 - Added possibility of doubling Q1 to Q3. ToDo: Need to check if the spacing is enough.
 - Added JTAG interface
 - Added a SD card and IIC socket, mainly for a RTC module. Should allow for much better offline logging.
