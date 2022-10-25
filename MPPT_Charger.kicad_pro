@@ -57,15 +57,29 @@
       ],
       "drc_exclusions": [
         "clearance|87725000|118655000|9be4dbfb-d1bf-450a-aa4d-009e6f919d38|457cf637-aced-438d-8555-49286310abd2",
+        "courtyards_overlap|138508001|124318001|a1f1606c-8a1d-45f1-b74b-c6cd521db456|f95fb120-9736-43f3-8b80-bcc405153296",
         "courtyards_overlap|163491601|110895801|29a86d2f-48a6-455f-afde-cd95374755ef|69676d8b-85cc-4465-b8a3-f8c3288fdfda",
+        "malformed_courtyard|86709600|94993400|b27485b0-6ed0-4510-a05a-845df57b0d2e|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|105160000|154938956|19081ad2-7f63-46c5-b8cc-8bbd473dd692|2f26358b-8cf0-43c9-9083-b21c1bac8936",
         "silk_over_copper|125740000|154938956|19081ad2-7f63-46c5-b8cc-8bbd473dd692|77b898a8-68eb-40b2-a758-68eb6d9ff78b",
         "silk_over_copper|128698400|154938956|19081ad2-7f63-46c5-b8cc-8bbd473dd692|320a6edc-06d2-4711-aae9-7c268f479a3f",
+        "silk_over_copper|129144400|99745800|f1549225-c063-431d-bf6f-fca061e13001|316b7f32-d904-44ad-9c85-d2f24c351494",
+        "silk_over_copper|129144400|99872200|f9ca9839-0e11-45e2-9f77-920ca5e64078|316b7f32-d904-44ad-9c85-d2f24c351494",
         "silk_over_copper|136518400|154938956|19081ad2-7f63-46c5-b8cc-8bbd473dd692|c4309f05-8864-4084-a2a4-0196b494c567",
+        "silk_over_copper|139384400|99637968|ed514ff9-fbef-4c13-b0e7-11b3100198d4|316b7f32-d904-44ad-9c85-d2f24c351494",
+        "silk_over_copper|140117200|99650014|2f1890b3-8ad8-4862-aea1-d32cd8f2c434|316b7f32-d904-44ad-9c85-d2f24c351494",
+        "silk_over_copper|140117200|99902800|e4e685cc-1062-428b-b4dc-9a862776c72c|316b7f32-d904-44ad-9c85-d2f24c351494",
+        "silk_over_copper|146086643|99902800|e4e685cc-1062-428b-b4dc-9a862776c72c|316b7f32-d904-44ad-9c85-d2f24c351494",
+        "silk_over_copper|151341600|94183200|19081ad2-7f63-46c5-b8cc-8bbd473dd692|1329c5d4-2527-41d3-9dab-152359ab335b",
         "silk_over_copper|165274302|116025800|19081ad2-7f63-46c5-b8cc-8bbd473dd692|b9f36a61-4845-4166-932e-85b97a43db1a",
         "silk_over_copper|165274302|134265800|19081ad2-7f63-46c5-b8cc-8bbd473dd692|b8638901-d9d7-4c3a-bacd-7ad9f1a604d5",
+        "silk_over_copper|86195074|94183200|19081ad2-7f63-46c5-b8cc-8bbd473dd692|0992a679-3764-43a5-9a4f-95b8f54efa23",
+        "silk_overlap|134712857|127309523|48ff7803-b97f-474e-8708-7ed34910770f|ea3626d4-71c0-4ebf-b841-9ee437e8cec4",
+        "silk_overlap|134810000|125785714|fc181171-6471-4fd0-b42e-32d7d2a42c87|48ff7803-b97f-474e-8708-7ed34910770f",
         "silk_overlap|151801580|149223828|66624c0e-63a9-46b8-a900-edd35b8e80c0|7c7b62ac-5ff4-43bb-9a41-c6aa99cece12",
-        "silk_overlap|151849200|149033352|66624c0e-63a9-46b8-a900-edd35b8e80c0|7c7b62ac-5ff4-43bb-9a41-c6aa99cece12"
+        "silk_overlap|151849200|149033352|66624c0e-63a9-46b8-a900-edd35b8e80c0|7c7b62ac-5ff4-43bb-9a41-c6aa99cece12",
+        "silk_overlap|151855200|146702380|f5e1e2d8-2ff6-47a1-a002-7710759658c2|0ad0e135-875f-4968-85ae-c6073a27b218",
+        "silk_overlap|151944438|151319066|66624c0e-63a9-46b8-a900-edd35b8e80c0|7c7b62ac-5ff4-43bb-9a41-c6aa99cece12"
       ],
       "meta": {
         "version": 2
@@ -407,7 +421,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "../../../Downloads/Projekt.dsn",
+      "specctra_dsn": "../../../../Desktop/Projekt.dsn",
       "step": "",
       "vrml": ""
     },
