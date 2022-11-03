@@ -5689,7 +5689,7 @@
     (property "Value" "470uF" (id 1) (at 111.506 137.922 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm" (id 2) (at 113.7412 134.112 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm" (id 2) (at 113.7412 134.112 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 112.776 130.302 0)
@@ -5925,7 +5925,7 @@
     (property "Value" "470uF" (id 1) (at 24.638 117.602 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm" (id 2) (at 25.3492 128.778 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm" (id 2) (at 25.3492 128.778 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 24.384 124.968 0)
@@ -8682,10 +8682,10 @@
       (reference "C6") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/159a177d-5e2f-470e-949c-7f78e34a2af3"
-      (reference "C7") (unit 1) (value "470uF") (footprint "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm")
+      (reference "C7") (unit 1) (value "470uF") (footprint "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
     )
     (path "/010c0f5e-e63a-4a17-9c19-17f7a9a1e6e0"
-      (reference "C8") (unit 1) (value "470uF") (footprint "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm")
+      (reference "C8") (unit 1) (value "470uF") (footprint "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
     )
     (path "/d1824afa-7dff-48a7-8516-96dbd7898808"
       (reference "C9") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
