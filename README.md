@@ -11,5 +11,7 @@ Since I wanted to be able to change the board layout and to test KiCad I decided
 - Had to divide GND into GND and GND2, so I could add the GND copper bar to the schematics and the layout without getting too hacky... Found no better "KiCad way"
 - 3D models are almost complete. SD card is not perfect.
 
+3D VRML preview: https://github.com/MarcelMo/MPPT_Kicad_Schematics/raw/master/vrml_preview/index.html
+
 ![image](https://user-images.githubusercontent.com/9505718/197799230-d5ded150-752a-478b-a134-1eaa9beb0152.png)
 ![image](https://user-images.githubusercontent.com/9505718/197799309-ab002c37-8d93-46b7-8a3e-1d9d9be074f3.png)
