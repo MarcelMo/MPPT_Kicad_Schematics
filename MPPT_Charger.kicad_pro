@@ -60,28 +60,13 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|103022400|99568000|af8eadeb-7c58-413a-bfcd-f349e91762f8|e1b6a4dc-f175-4920-a377-a00253e7c1ce",
-        "clearance|103221600|99568000|78ed85ce-ac8b-4e7e-9276-1edcc14440c2|e1b6a4dc-f175-4920-a377-a00253e7c1ce",
-        "copper_edge_clearance|100080000|154938956|19081ad2-7f63-46c5-b8cc-8bbd473dd692|5ac83270-bc32-4aa6-9cc7-ba44c871dd95",
+        "copper_edge_clearance|100080000|155000000|19081ad2-7f63-46c5-b8cc-8bbd473dd692|5ac83270-bc32-4aa6-9cc7-ba44c871dd95",
         "copper_edge_clearance|104140000|94234000|19081ad2-7f63-46c5-b8cc-8bbd473dd692|78ed85ce-ac8b-4e7e-9276-1edcc14440c2",
-        "copper_edge_clearance|104190800|94335600|19081ad2-7f63-46c5-b8cc-8bbd473dd692|efd3a55d-ef47-46ef-97a9-79da10d44498",
-        "copper_edge_clearance|110500000|154938956|19081ad2-7f63-46c5-b8cc-8bbd473dd692|beb27e1d-b0a5-483b-861a-b14e7025050b",
-        "copper_edge_clearance|120660000|154938956|19081ad2-7f63-46c5-b8cc-8bbd473dd692|73958eb2-c556-4fc1-9aa9-c092e380a326",
-        "copper_edge_clearance|89920000|154938956|19081ad2-7f63-46c5-b8cc-8bbd473dd692|47369f98-eab6-46eb-a7bd-9d9dfff8be01",
-        "footprint_symbol_mismatch|102971600|100068000|b770296a-0b63-4665-aa8c-6aa526b458cf|00000000-0000-0000-0000-000000000000",
-        "hole_clearance|135893900|148018900|ab36b421-c624-44d9-9cb9-31ede5a391c6|8dee3dd7-1145-4800-92dd-4163763b0730",
-        "hole_clearance|135893900|148018900|ab36b421-c624-44d9-9cb9-31ede5a391c6|e9ad1d1a-5308-40d8-8ee1-5db3ad0a5821",
-        "hole_clearance|141993900|148018900|df8244cb-e740-434c-91f0-7e62c4b6d322|7efbeb63-1ddc-4356-8d5d-cb6e715e6026",
-        "hole_clearance|141993900|148018900|df8244cb-e740-434c-91f0-7e62c4b6d322|c07736b0-085d-44c6-8c67-5203ccfaae04",
-        "net_conflict|122936000|91135200|b27485b0-6ed0-4510-a05a-845df57b0d2e|00000000-0000-0000-0000-000000000000",
-        "shorting_items|102971600|99568000|b905a086-9c07-4f2d-a753-17923cfc2100|78ed85ce-ac8b-4e7e-9276-1edcc14440c2",
-        "shorting_items|103022400|98501200|e0ac556f-71d5-427f-ac45-ab1ae150dc84|b905a086-9c07-4f2d-a753-17923cfc2100",
-        "shorting_items|103022400|98548700|af8eadeb-7c58-413a-bfcd-f349e91762f8|b905a086-9c07-4f2d-a753-17923cfc2100",
-        "shorting_items|103022400|99568000|61291b10-3b81-4db6-bc9c-efa9d8ae7765|b905a086-9c07-4f2d-a753-17923cfc2100",
-        "solder_mask_bridge|102971600|99568000|e16bb900-8700-4962-88a2-52ff61dbc48e|23308d72-0383-4815-9749-32807dec0d61",
-        "solder_mask_bridge|103022400|98548700|b905a086-9c07-4f2d-a753-17923cfc2100|af8eadeb-7c58-413a-bfcd-f349e91762f8",
-        "solder_mask_bridge|103221600|99568000|e16bb900-8700-4962-88a2-52ff61dbc48e|23308d72-0383-4815-9749-32807dec0d61",
-        "unconnected_items|102971600|100568000|ad5b5d36-d0a1-46b2-8124-5dbe0dbbd526|61291b10-3b81-4db6-bc9c-efa9d8ae7765"
+        "copper_edge_clearance|110500000|155000000|19081ad2-7f63-46c5-b8cc-8bbd473dd692|beb27e1d-b0a5-483b-861a-b14e7025050b",
+        "copper_edge_clearance|120660000|155000000|19081ad2-7f63-46c5-b8cc-8bbd473dd692|73958eb2-c556-4fc1-9aa9-c092e380a326",
+        "copper_edge_clearance|139239000|155000000|19081ad2-7f63-46c5-b8cc-8bbd473dd692|f2f250b6-2c77-424d-905c-b6deeb8ff079",
+        "copper_edge_clearance|173000000|120307600|19081ad2-7f63-46c5-b8cc-8bbd473dd692|edbd771d-c77e-45f5-9469-652c87dc7d58",
+        "copper_edge_clearance|89920000|155000000|19081ad2-7f63-46c5-b8cc-8bbd473dd692|47369f98-eab6-46eb-a7bd-9d9dfff8be01"
       ],
       "meta": {
         "version": 2
@@ -642,7 +627,7 @@
       "specctra_dsn": "../../../Downloads/Projekt.dsn",
       "step": "",
       "svg": "",
-      "vrml": "vrml_preview/MPPT_Charger.wrl"
+      "vrml": "../../../Downloads/MPPT_Charger.wrl"
     },
     "page_layout_descr_file": ""
   },
