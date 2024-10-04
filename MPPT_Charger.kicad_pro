@@ -59,15 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|100080000|155000000|19081ad2-7f63-46c5-b8cc-8bbd473dd692|5ac83270-bc32-4aa6-9cc7-ba44c871dd95",
-        "copper_edge_clearance|104140000|94234000|19081ad2-7f63-46c5-b8cc-8bbd473dd692|78ed85ce-ac8b-4e7e-9276-1edcc14440c2",
-        "copper_edge_clearance|110500000|155000000|19081ad2-7f63-46c5-b8cc-8bbd473dd692|beb27e1d-b0a5-483b-861a-b14e7025050b",
-        "copper_edge_clearance|120660000|155000000|19081ad2-7f63-46c5-b8cc-8bbd473dd692|73958eb2-c556-4fc1-9aa9-c092e380a326",
-        "copper_edge_clearance|139239000|155000000|19081ad2-7f63-46c5-b8cc-8bbd473dd692|f2f250b6-2c77-424d-905c-b6deeb8ff079",
-        "copper_edge_clearance|173000000|120307600|19081ad2-7f63-46c5-b8cc-8bbd473dd692|edbd771d-c77e-45f5-9469-652c87dc7d58",
-        "copper_edge_clearance|89920000|155000000|19081ad2-7f63-46c5-b8cc-8bbd473dd692|47369f98-eab6-46eb-a7bd-9d9dfff8be01"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -563,7 +555,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -594,11 +586,45 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(128, 128, 128)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 40,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "HIPWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 1.0,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 40
+      },
+      {
+        "bus_width": 24,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MEDPWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 161, 0)",
+        "track_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 12
       }
     ],
     "meta": {
@@ -606,16 +632,46 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+12V": "MEDPWR",
+      "+3.3V": "MEDPWR",
+      "+5V": "MEDPWR",
+      "FAN_GND": "MEDPWR",
       "GND2": "HIPWR",
       "Net-(C7-Pad1)": "HIPWR",
       "Net-(C8-Pad1)": "HIPWR",
+      "Net-(D4-A)": "MEDPWR",
+      "Net-(D4-K)": "MEDPWR",
+      "Net-(D5-Anode)": "MEDPWR",
+      "Net-(D6-Anode)": "MEDPWR",
+      "Net-(D7-Katode)": "MEDPWR",
+      "Net-(D8-A)": "MEDPWR",
       "Net-(J1-Pin_1)": "HIPWR",
       "Net-(J2-Pin_1)": "HIPWR",
       "Net-(JP1-B)": "HIPWR",
+      "Net-(Q1-D)": "HIPWR",
       "Net-(Q1-S)": "HIPWR",
-      "Net-(Q2-S)": "HIPWR"
+      "Net-(Q2-S)": "HIPWR",
+      "Net-(Q4-D)": "MEDPWR",
+      "VBUS": "MEDPWR"
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "MEDPWR",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "MEDPWR",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "MEDPWR",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "MEDPWR",
+        "pattern": "+5V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -633,7 +689,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "test",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -694,7 +750,7 @@
           "group_by": false,
           "label": "Voltage",
           "name": "Voltage",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -707,6 +763,18 @@
           "label": "Beschreibung",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part",
+          "name": "JLCPCB Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         }
       ],
       "filter_string": "",
