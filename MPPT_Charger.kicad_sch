@@ -9182,12 +9182,6 @@
 		(uuid "4e7af26e-62c2-4f06-b13a-13d7a3961678")
 	)
 	(junction
-		(at 24.384 139.192)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "516a332a-082b-41be-8e08-217d5b7e53a1")
-	)
-	(junction
 		(at 116.586 139.192)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9976,6 +9970,16 @@
 			(type default)
 		)
 		(uuid "0878b173-9b0d-4708-b3d3-d309c5f279a5")
+	)
+	(wire
+		(pts
+			(xy 108.458 153.67) (xy 108.458 154.432)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c85151-06cb-4b11-804c-dd6db30ecdfc")
 	)
 	(wire
 		(pts
@@ -11669,6 +11673,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 159.258) (xy 125.73 159.766)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f870125-72db-4c39-a78c-7e26782138ec")
+	)
+	(wire
+		(pts
 			(xy 70.866 127.762) (xy 71.12 127.762)
 		)
 		(stroke
@@ -11976,16 +11990,6 @@
 			(type default)
 		)
 		(uuid "82320447-96ab-4aa1-a6e3-24bbc3d743e1")
-	)
-	(wire
-		(pts
-			(xy 24.384 139.192) (xy 25.4 139.192)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "824bdd0b-ed56-45c4-b2f8-1d9faee53538")
 	)
 	(wire
 		(pts
@@ -13259,6 +13263,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 153.67) (xy 116.84 154.432)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ed6a80-31a5-409a-bb1a-a72f1106d3aa")
+	)
+	(wire
+		(pts
 			(xy 60.706 16.764) (xy 60.706 21.082)
 		)
 		(stroke
@@ -13306,16 +13320,6 @@
 			(type default)
 		)
 		(uuid "d2c53e83-00e6-4213-835d-5bae8e4fad2c")
-	)
-	(wire
-		(pts
-			(xy 125.73 158.75) (xy 125.73 159.766)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4e98d43-16e3-4807-a4e0-6cf5be1943bc")
 	)
 	(wire
 		(pts
@@ -13866,6 +13870,16 @@
 			(type default)
 		)
 		(uuid "f8434a97-e01a-43ff-8a43-028aef7db513")
+	)
+	(wire
+		(pts
+			(xy 125.73 153.67) (xy 125.73 154.178)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f90b72bf-fc19-4b13-bbb3-0e93569ae33e")
 	)
 	(wire
 		(pts
@@ -15609,6 +15623,32 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 116.84 154.432 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21dca289-a5a1-4262-9175-d11f42fb37d6")
+		(property "Netclass" "MEDPWR"
+			(at 114.3 153.7335 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+					(color 255 42 4 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 26.67 17.272 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15776,32 +15816,6 @@
 		(uuid "6569f87f-66f6-44f5-b50e-0daf1a7655fc")
 		(property "Netclass" "HIPWR"
 			(at 88.0745 97.282 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-					(color 255 42 4 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 273.558 105.918 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d0bee6d-e0b9-42b0-9cd2-ad7bbfa1dd3d")
-		(property "Netclass" "MEDPWR"
-			(at 274.2565 103.378 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17163,7 +17177,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 125.73 156.21 270)
+		(at 125.73 156.718 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17171,7 +17185,7 @@
 		(dnp no)
 		(uuid "1814d146-37bc-4ac6-bf47-95a3ab8ea21f")
 		(property "Reference" "NT1"
-			(at 127 156.21 0)
+			(at 127 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17180,7 +17194,7 @@
 			)
 		)
 		(property "Value" "GND to GND2"
-			(at 128.778 151.892 0)
+			(at 128.778 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17189,7 +17203,7 @@
 			)
 		)
 		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 125.73 156.21 0)
+			(at 125.73 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17198,7 +17212,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 156.21 0)
+			(at 125.73 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17207,7 +17221,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 125.73 156.21 0)
+			(at 125.73 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17762,14 +17776,14 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24791244-324a-46b2-bf2c-d8ed90d23b9d")
 		(property "Reference" "NT13"
-			(at 63.246 11.43 0)
+			(at 62.738 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "NetTie_2"
@@ -17778,6 +17792,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
@@ -17902,6 +17917,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "NetTie_2"
@@ -18323,6 +18339,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -19075,7 +19092,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 116.84 154.432 180)
+		(at 116.84 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19083,7 +19100,7 @@
 		(dnp no)
 		(uuid "393ba4d0-5f5b-4ce1-bb1f-ddc4cabe1677")
 		(property "Reference" "#PWR016"
-			(at 116.84 148.082 0)
+			(at 116.84 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19092,7 +19109,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 116.205 151.257 0)
+			(at 116.205 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19100,7 +19117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 154.432 0)
+			(at 116.84 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19109,7 +19126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 154.432 0)
+			(at 116.84 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19118,7 +19135,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 154.432 0)
+			(at 116.84 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19153,6 +19170,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -21661,16 +21679,17 @@
 		(fields_autoplaced yes)
 		(uuid "6a0d4041-419e-4480-93c7-cc8cd558e9ad")
 		(property "Reference" "NT3"
-			(at 65.786 90.9319 90)
+			(at 66.04 91.5669 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "NetTie_2"
-			(at 65.786 93.4719 90)
+		(property "Value" "~"
+			(at 66.04 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22496,7 +22515,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 108.458 154.432 180)
+		(at 108.458 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22504,7 +22523,7 @@
 		(dnp no)
 		(uuid "7acf7309-d151-41f2-9de9-4b8e5502613c")
 		(property "Reference" "#PWR013"
-			(at 108.458 148.082 0)
+			(at 108.458 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22513,7 +22532,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.823 151.257 0)
+			(at 107.823 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22521,7 +22540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.458 154.432 0)
+			(at 108.458 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22530,7 +22549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 108.458 154.432 0)
+			(at 108.458 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22539,7 +22558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 108.458 154.432 0)
+			(at 108.458 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23137,6 +23156,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "NetTie_2"
@@ -27953,6 +27973,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "NetTie_2"
