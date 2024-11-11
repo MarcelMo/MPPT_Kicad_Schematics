@@ -14258,28 +14258,6 @@
 			)
 		)
 	)
-	(global_label "SD_DAT1"
-		(shape input)
-		(at 190.246 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2997de7c-0c22-47f6-afd2-367a42842b66")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.85 102.7906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL"
 		(shape input)
 		(at 254.508 110.998 180)
@@ -14390,7 +14368,7 @@
 			)
 		)
 	)
-	(global_label "RX"
+	(global_label "TX"
 		(shape passive)
 		(at 191.516 47.244 0)
 		(fields_autoplaced yes)
@@ -14402,7 +14380,7 @@
 		)
 		(uuid "56cd9989-9f60-4050-9269-3d060970eead")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.4086 47.1646 0)
+			(at 195.567 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14879,19 +14857,21 @@
 			)
 		)
 	)
-	(global_label "TX"
+	(global_label "RX"
 		(shape passive)
 		(at 191.516 44.704 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
 		(uuid "9dd04a7f-5ece-4b68-a7f9-bd97de9a07db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.1062 44.6246 0)
+			(at 196.3454 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15179,6 +15159,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO4"
+		(shape input)
+		(at 272.542 113.538 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0d1ba76-9f77-4cc8-a23d-a7f29121fa96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.212 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15531,6 +15533,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO4"
+		(shape input)
+		(at 190.246 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff934b9c-ccc3-4cf0-9c80-4e9da0b2903b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.576 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
