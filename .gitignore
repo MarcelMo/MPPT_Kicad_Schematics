@@ -4,3 +4,6 @@
 /MPPT_Charger-backups
 /*.zip
 /archive_3d_models.log
+/pcbway_production/**
+/*.lck
+/*.bak

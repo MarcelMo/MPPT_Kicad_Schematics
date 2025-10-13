@@ -1,0 +1,5 @@
+(version 1)
+(rule "Via_in_Pad_Net-JP1-B"
+    (condition "(A.Net == 'Net-(JP1-B)' && B.Type == 'Via') || (B.Net == 'Net-(JP1-B)' && A.Type == 'Via')")
+    (constraint clearance (min 0.0mm))
+)
